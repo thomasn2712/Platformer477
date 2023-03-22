@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Wall
+    uniqueID: 2669392743
+    locked: 0
+  - name: Sprite
+    uniqueID: 753311333
+    locked: 0
+  - name: Player Layer
+    uniqueID: 3032954403
+    locked: 0
