@@ -1,43 +1,57 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class Player : MonoBehaviour
 {
-    private float speed;
-    public GameObject couch;
-    // Start is called before the first frame update
-    void Start()
+    public Animator animator;
+    public float speed;
+
+    private CharacterController2D charCon;
+    private float moveDir;
+    private bool jump;
+
+    private void Start()
     {
-        speed = 5;
+        charCon = GetComponent<CharacterController2D>();
+        jump = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        float playerCouchDistance = Mathf.Abs(couch.transform.position.x - transform.position.x);
-        float playerCouchHeightDistance = Mathf.Abs(couch.transform.position.y - transform.position.y);
-        if ((playerCouchDistance < 2) || (playerCouchHeightDistance < 0.5)) {
-            if (Input.GetKey(KeyCode.F)) {
-                couch.transform.position = new Vector3(transform.position.x, couch.transform.position.y, couch.transform.position.z);
-            }
-        }
-        // Movement 
-        if ((Input.GetKey(KeyCode.UpArrow)) || (Input.GetKey(KeyCode.W)))
+        moveDir = Input.GetAxis("Horizontal");
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            transform.Translate(Vector3.up * speed * Time.deltaTime);
+            jump = true;
+            animator.SetTrigger("Jump");
         }
-        else if ((Input.GetKey(KeyCode.DownArrow)) || (Input.GetKey(KeyCode.S)))
+        if (Input.GetKeyDown(KeyCode.K))
         {
-            transform.Translate(-Vector3.up * speed * Time.deltaTime);
-        }
-        else if ((Input.GetKey(KeyCode.RightArrow)) || (Input.GetKey(KeyCode.D)))
-        {
-            transform.Translate(Vector3.right * speed * Time.deltaTime);
-        }
-        else if ((Input.GetKey(KeyCode.LeftArrow)) || (Input.GetKey(KeyCode.A)))
-        {
-            transform.Translate(-Vector3.right * speed * Time.deltaTime);
+            animator.SetTrigger("Death");
         }
     }
+
+    private void FixedUpdate()
+    {
+        charCon.Move(moveDir * speed * Time.fixedDeltaTime, false, jump);
+        if (charCon.IsPlayerOnGround())
+        {
+            animator.SetTrigger("Grounded");
+        }
+        jump = false;
+        animator.SetFloat("Idle", Mathf.Abs(moveDir));
+    }
 }
+
+
+
+//float playerCouchDistance = Mathf.Abs(couch.transform.position.x - transform.position.x);
+//float playerCouchHeightDistance = Mathf.Abs(couch.transform.position.y - transform.position.y);
+//if ((playerCouchDistance < 2) && (playerCouchHeightDistance < 0.5))
+//{
+//    if (Input.GetKey(KeyCode.F))
+//    {
+//        couch.transform.position = new Vector3(transform.position.x, couch.transform.position.y, couch.transform.position.z);
+//    }
+//}
