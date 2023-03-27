@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000022888184, y: -13}
+  m_AnchoredPosition: {x: -0.000022888184, y: 0}
   m_SizeDelta: {x: 93.7832, y: 42.9178}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &30647872
@@ -428,7 +428,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000022888184, y: -157}
+  m_AnchoredPosition: {x: -0.000022888184, y: 5}
   m_SizeDelta: {x: 93.7832, y: 42.9178}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &495699153
@@ -565,7 +565,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 39, y: -125}
+  m_AnchoredPosition: {x: 39, y: -294.8}
   m_SizeDelta: {x: 239.4775, y: 87.2238}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &573213701
@@ -742,6 +742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a0c7bd5750f6584b98ac5d2590e34d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartScene: 0
 --- !u!1 &1005913286
 GameObject:
   m_ObjectHideFlags: 0
@@ -974,6 +975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a0c7bd5750f6584b98ac5d2590e34d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartScene: 0
 --- !u!1 &1141865503
 GameObject:
   m_ObjectHideFlags: 0
@@ -1064,6 +1066,7 @@ GameObject:
   - component: {fileID: 1817216033}
   - component: {fileID: 1817216032}
   - component: {fileID: 1817216031}
+  - component: {fileID: 1817216034}
   m_Layer: 5
   m_Name: Start (Button)
   m_TagString: StartButton
@@ -1089,7 +1092,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 39, y: -125}
+  m_AnchoredPosition: {x: 39, y: -138}
   m_SizeDelta: {x: 239.4775, y: 87.2238}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1817216031
@@ -1136,9 +1139,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1023503323}
-        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
-        m_MethodName: StartButton
+      - m_Target: {fileID: 1817216034}
+        m_TargetAssemblyTypeName: StartButtonControl, Assembly-CSharp
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1186,3 +1189,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817216029}
   m_CullTransparentMesh: 1
+--- !u!114 &1817216034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817216029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a0c7bd5750f6584b98ac5d2590e34d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameStartScene: 1
