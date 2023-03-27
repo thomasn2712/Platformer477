@@ -1,0 +1,1077 @@
+fileFormatVersion: 2
+guid: 5c0289e0a92de4a4ab85c5be29490eb4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Computer Chair
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1919
+      y: 401
+      width: 115
+      height: 73
+    spriteID: 80b4b3dc8e85304458d56222441581aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1918, y: 400}
+    spritePosition: {x: 576, y: 959}
+  - name: Move Table 3rd floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1789
+      y: 517
+      width: 97
+      height: 51
+    spriteID: bd8aa923fee4aa344a7cae78f9d0a27b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1789, y: 517}
+    spritePosition: {x: 599, y: 543}
+  - name: Slip through floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1151
+      y: 840
+      width: 563
+      height: 15
+    spriteID: c1e396b82c6703940a40877e3fa1b484
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1151, y: 840}
+    spritePosition: {x: 13, y: 527}
+  - name: Layer 23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 584
+      y: 401
+      width: 559
+      height: 393
+    spriteID: e01efa552e0156e45b03538b9ef112d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 574, y: 401}
+    spritePosition: {x: 10, y: 540}
+  - name: Layer 21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1717
+      y: 517
+      width: 64
+      height: 88
+    spriteID: 5d151d4d48091c042aa7ba9e321cd8b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1717, y: 517}
+    spritePosition: {x: 601, y: 764}
+  - name: No Floor copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1666
+      y: 637
+      width: 88
+      height: 39
+    spriteID: dc289fb7989eb1948969b33403a849da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1627, y: 637}
+    spritePosition: {x: 652, y: 973}
+  - name: No Floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1860
+      y: 637
+      width: 88
+      height: 36
+    spriteID: 5a86c1044e72bd9429cc62b9e7086c03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1860, y: 637}
+    spritePosition: {x: 845, y: 973}
+  - name: Desint Floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1956
+      y: 637
+      width: 88
+      height: 36
+    spriteID: 03a938fb61092a841a4c4faca29d0846
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1956, y: 637}
+    spritePosition: {x: 760, y: 973}
+  - name: Crumbled Floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1926
+      y: 576
+      width: 91
+      height: 38
+    spriteID: 551a2c32768d585459cea34f69316834
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1926, y: 576}
+    spritePosition: {x: 829, y: 1031}
+  - name: Broken Floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1762
+      y: 637
+      width: 90
+      height: 37
+    spriteID: 25bcd3cef8d3a594bbe3ac9fe85d7f1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1762, y: 637}
+    spritePosition: {x: 748, y: 1032}
+  - name: Cracked Floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1666
+      y: 684
+      width: 88
+      height: 36
+    spriteID: 5cd768a5984ee9c4ab4e7bd10373cdcc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1666, y: 684}
+    spritePosition: {x: 652, y: 1039}
+  - name: Bed
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1717
+      y: 401
+      width: 194
+      height: 108
+    spriteID: d05c4db341290394292b5ebb1ab2f630
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1707, y: 401}
+    spritePosition: {x: 587, y: 430}
+  - name: Bed
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1151
+      y: 401
+      width: 558
+      height: 228
+    spriteID: 2577af257a25eec4385a3aaa6c373ba0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1151, y: 401}
+    spritePosition: {x: 20, y: 908}
+  - name: Slip through Layer
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1151
+      y: 863
+      width: 566
+      height: 12
+    spriteID: 500870d023c99b64bb11d8c84e89c9e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1151, y: 863}
+    spritePosition: {x: 12, y: 907}
+  - name: TV Screen
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2021
+      y: 816
+      width: 20
+      height: 12
+    spriteID: f5c0c3f3078c23d43ac703be799bb35d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2021, y: 816}
+    spritePosition: {x: 251, y: 645}
+  - name: TV Blue
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1717
+      y: 613
+      width: 20
+      height: 12
+    spriteID: 9e13ac27269881a46a0f755d63276a3f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1717, y: 613}
+    spritePosition: {x: 279, y: 645}
+  - name: Comp Screen 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1745
+      y: 613
+      width: 20
+      height: 12
+    spriteID: 51b47fccb44776e4a8c35d06ae0565d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1745, y: 613}
+    spritePosition: {x: 580, y: 1039}
+  - name: Computer Screen
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2001
+      y: 517
+      width: 20
+      height: 12
+    spriteID: 1f003ab90b0de0042a23d2c388d0df79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2001, y: 517}
+    spritePosition: {x: 608, y: 1039}
+  - name: Table
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1894
+      y: 517
+      width: 99
+      height: 46
+    spriteID: b23732e4d69c5d8419f85bd70dca32cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1893, y: 517}
+    spritePosition: {x: 973, y: 355}
+  - name: Layer 24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1726
+      y: 816
+      width: 287
+      height: 10
+    spriteID: 34a0c37f046dda943ac51a926f872a87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1726, y: 816}
+    spritePosition: {x: 35, y: 766}
+  - name: Second Level
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 401
+      width: 572
+      height: 409
+    spriteID: 1b410206eb408ef458fb9223a9bd52d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1, y: 401}
+    spritePosition: {x: 5, y: 727}
+  - name: Layer 25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1151
+      y: 816
+      width: 567
+      height: 16
+    spriteID: 2744979460dabb24fb16cf4c099b6e13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1151, y: 816}
+    spritePosition: {x: 7, y: 348}
+  - name: Fourth Level
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 584
+      y: 802
+      width: 548
+      height: 209
+    spriteID: 6ddc93192cea6274aad9245774a92696
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 583, y: 802}
+    spritePosition: {x: 18, y: 364}
+  - name: Sixth Level
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 931
+      height: 389
+    spriteID: 0e490628783592a40bc31aeb6b496101
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 231, y: 124}
+  - name: Slip Through 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1151
+      y: 637
+      width: 507
+      height: 171
+    spriteID: 6e44738f3956a704ca62a8adebcb4b74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1151, y: 637}
+    spritePosition: {x: 618, y: 146}
+  - name: Layer 26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1789
+      y: 576
+      width: 129
+      height: 27
+    spriteID: fc782ced67b73634f9c21b7f6fa3c571
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1789, y: 576}
+    spritePosition: {x: 398, y: 163}
+  - name: Fifth Floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 818
+      width: 562
+      height: 200
+    spriteID: 2a57a713c9399ee4097070fa5fa76d87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 818}
+    spritePosition: {x: 9, y: 124}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Computer Chair
+    spriteName: Computer Chair
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 80b4b3dc8e85304458d56222441581aa
+    layerID: 46
+    mosaicPosition: {x: 1919, y: 401}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Move Table 3rd floor
+    spriteName: Move Table 3rd floor
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bd8aa923fee4aa344a7cae78f9d0a27b
+    layerID: 107
+    mosaicPosition: {x: 1789, y: 517}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Group 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 0883c1bb04f0cb64a8d8f333df33959d
+    layerID: 138
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Slip through floor
+    spriteName: Slip through floor
+    isGroup: 0
+    parentIndex: 2
+    spriteID: c1e396b82c6703940a40877e3fa1b484
+    layerID: 137
+    mosaicPosition: {x: 1151, y: 840}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Layer 23
+    spriteName: Layer 23
+    isGroup: 0
+    parentIndex: 2
+    spriteID: e01efa552e0156e45b03538b9ef112d9
+    layerID: 92
+    mosaicPosition: {x: 584, y: 401}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Layer 21
+    spriteName: Layer 21
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5d151d4d48091c042aa7ba9e321cd8b1
+    layerID: 81
+    mosaicPosition: {x: 1717, y: 517}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Floor
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 172525e8c388d6348ac805b84c700a61
+    layerID: 72
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: No Floor copy
+    spriteName: No Floor copy
+    isGroup: 0
+    parentIndex: 6
+    spriteID: dc289fb7989eb1948969b33403a849da
+    layerID: 114
+    mosaicPosition: {x: 1666, y: 637}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: No Floor
+    spriteName: No Floor
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 5a86c1044e72bd9429cc62b9e7086c03
+    layerID: 70
+    mosaicPosition: {x: 1860, y: 637}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Desint Floor
+    spriteName: Desint Floor
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 03a938fb61092a841a4c4faca29d0846
+    layerID: 65
+    mosaicPosition: {x: 1956, y: 637}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Crumbled Floor
+    spriteName: Crumbled Floor
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 551a2c32768d585459cea34f69316834
+    layerID: 63
+    mosaicPosition: {x: 1926, y: 576}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Broken Floor
+    spriteName: Broken Floor
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 25bcd3cef8d3a594bbe3ac9fe85d7f1a
+    layerID: 55
+    mosaicPosition: {x: 1762, y: 637}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cracked Floor
+    spriteName: Cracked Floor
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 5cd768a5984ee9c4ab4e7bd10373cdcc
+    layerID: 52
+    mosaicPosition: {x: 1666, y: 684}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bed
+    spriteName: Bed
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d05c4db341290394292b5ebb1ab2f630
+    layerID: 111
+    mosaicPosition: {x: 1717, y: 401}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Group 2
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 1d8dca23e6e5ab44ea7a9a70e1f9ff9f
+    layerID: 140
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Bed
+    spriteName: Bed
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 2577af257a25eec4385a3aaa6c373ba0
+    layerID: 43
+    mosaicPosition: {x: 1151, y: 401}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Slip through Layer
+    spriteName: Slip through Layer
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 500870d023c99b64bb11d8c84e89c9e1
+    layerID: 71
+    mosaicPosition: {x: 1151, y: 863}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TV Screen
+    spriteName: TV Screen
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f5c0c3f3078c23d43ac703be799bb35d
+    layerID: 136
+    mosaicPosition: {x: 2021, y: 816}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TV Blue
+    spriteName: TV Blue
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9e13ac27269881a46a0f755d63276a3f
+    layerID: 135
+    mosaicPosition: {x: 1717, y: 613}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Comp Screen 2
+    spriteName: Comp Screen 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 51b47fccb44776e4a8c35d06ae0565d3
+    layerID: 76
+    mosaicPosition: {x: 1745, y: 613}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Computer Screen
+    spriteName: Computer Screen
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1f003ab90b0de0042a23d2c388d0df79
+    layerID: 75
+    mosaicPosition: {x: 2001, y: 517}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Table
+    spriteName: Table
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b23732e4d69c5d8419f85bd70dca32cf
+    layerID: 120
+    mosaicPosition: {x: 1894, y: 517}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Group 3
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 5963cc66b241c0742a513fd9b18464ff
+    layerID: 143
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Layer 24
+    spriteName: Layer 24
+    isGroup: 0
+    parentIndex: 22
+    spriteID: 34a0c37f046dda943ac51a926f872a87
+    layerID: 142
+    mosaicPosition: {x: 1726, y: 816}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Second Level
+    spriteName: Second Level
+    isGroup: 0
+    parentIndex: 22
+    spriteID: 1b410206eb408ef458fb9223a9bd52d9
+    layerID: 86
+    mosaicPosition: {x: 4, y: 401}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Group 4
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: bfe38d4a3f576df498af26d28a992b9a
+    layerID: 146
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Layer 25
+    spriteName: Layer 25
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 2744979460dabb24fb16cf4c099b6e13
+    layerID: 145
+    mosaicPosition: {x: 1151, y: 816}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Fourth Level
+    spriteName: Fourth Level
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 6ddc93192cea6274aad9245774a92696
+    layerID: 106
+    mosaicPosition: {x: 584, y: 802}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Group 6
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 839dd9f7ea44eed4bb301095f3134513
+    layerID: 151
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Sixth Level
+    spriteName: Sixth Level
+    isGroup: 0
+    parentIndex: 28
+    spriteID: 0e490628783592a40bc31aeb6b496101
+    layerID: 31
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Slip Through 6
+    spriteName: Slip Through 6
+    isGroup: 0
+    parentIndex: 28
+    spriteID: 6e44738f3956a704ca62a8adebcb4b74
+    layerID: 123
+    mosaicPosition: {x: 1151, y: 637}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Group 5
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: e5968bab91d4f48418596ad6adb559ab
+    layerID: 149
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Layer 26
+    spriteName: Layer 26
+    isGroup: 0
+    parentIndex: 31
+    spriteID: fc782ced67b73634f9c21b7f6fa3c571
+    layerID: 148
+    mosaicPosition: {x: 1789, y: 576}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Fifth Floor
+    spriteName: Fifth Floor
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 2a57a713c9399ee4097070fa5fa76d87
+    layerID: 118
+    mosaicPosition: {x: 4, y: 818}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Sixth Floor
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: c96734edf36f0ab44bd23bd71ce741cf
+    layerID: 124
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
