@@ -10,6 +10,18 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 moveVector = Vector2.zero;
     public Animator animator;
     public GameObject robot;
+    public GameObject robot2;
+    public GameObject robot3;
+    public GameObject pushable;
+    public GameObject pushable2;
+    public GameObject pushable3;
+
+    private Rigidbody2D pushableRb;
+    private Rigidbody2D pushableRb2;
+    private Rigidbody2D pushableRb3;
+    private BoxCollider2D playerCollider;
+    private CapsuleCollider2D crouchCollider;
+
 
     private float moveDir;
     private bool jump;
@@ -24,7 +36,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        pushableRb = pushable.GetComponent<Rigidbody2D>();
+        pushableRb2 = pushable2.GetComponent<Rigidbody2D>();
+        pushableRb3 = pushable3.GetComponent<Rigidbody2D>();
         charCon = GetComponent<CharacterController2D>();
+        playerCollider = GetComponent<BoxCollider2D>();
+        crouchCollider = GetComponent<CapsuleCollider2D>();
         push = false;
         jump = false;
     }
@@ -46,10 +63,12 @@ public class PlayerMovement : MonoBehaviour
         {
             push = true;
             animator.SetTrigger("Push");
+            checkForPush();
         }
         else if (Input.GetKeyDown(KeyCode.C))
         {
             animator.SetTrigger("Crouching");
+            changeCollider();
         }
 
 
@@ -59,6 +78,34 @@ public class PlayerMovement : MonoBehaviour
         if (Vector3.Distance (transform.position, robot.transform.position) < 5){
             robot.GetComponent<Animator>().SetTrigger("Death");
         }
+        if (Vector3.Distance(transform.position, robot2.transform.position) < 5)
+        {
+            robot2.GetComponent<Animator>().SetTrigger("Death");
+        }
+        if (Vector3.Distance(transform.position, robot3.transform.position) < 5)
+        {
+            robot3.GetComponent<Animator>().SetTrigger("Death");
+        }
+    }
+    private void checkForPush()
+    {
+        if (Vector3.Distance(transform.position, pushable.transform.position) < 3)
+        {
+            pushableRb.constraints &= ~RigidbodyConstraints2D.FreezePositionX;
+        }
+        if (Vector3.Distance(transform.position, pushable2.transform.position) < 3)
+        {
+            pushableRb2.constraints &= ~RigidbodyConstraints2D.FreezePositionX;
+        }
+        if (Vector3.Distance(transform.position, pushable3.transform.position) < 3)
+        {
+            pushableRb3.constraints &= ~RigidbodyConstraints2D.FreezePositionX;
+        }
+    }
+    private void changeCollider()
+    {
+        playerCollider.enabled = !playerCollider.enabled;
+        crouchCollider.enabled = !crouchCollider.enabled;
     }
 
     private void FixedUpdate(){
