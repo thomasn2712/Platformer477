@@ -25,7 +25,6 @@ public class PlayerMovement : MonoBehaviour
 
     private float moveDir;
     private bool jump;
-    private bool push;
     [SerializeField]
     public float speed;
 
@@ -42,7 +41,6 @@ public class PlayerMovement : MonoBehaviour
         charCon = GetComponent<CharacterController2D>();
         playerCollider = GetComponent<BoxCollider2D>();
         crouchCollider = GetComponent<CapsuleCollider2D>();
-        push = false;
         jump = false;
     }
 
@@ -61,7 +59,6 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.E))
         {
-            push = true;
             animator.SetTrigger("Push");
             checkForPush();
         }
