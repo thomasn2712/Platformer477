@@ -67,6 +67,14 @@ public class PlayerMovement : MonoBehaviour
             animator.SetTrigger("Crouching");
             changeCollider();
         }
+        else if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            speed = 50;
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            speed = 30;
+        }
 
 
     }
