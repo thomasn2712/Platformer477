@@ -5,35 +5,67 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private CustomInput input = null;
+    private CharacterController2D charCon;
     private Rigidbody2D rb = null;
     private Vector2 moveVector = Vector2.zero;
+    public Animator animator;
+    public GameObject robot;
+
+    private float moveDir;
+    private bool jump;
+    private bool push;
     [SerializeField]
-    private float moveSpeed = 10;
+    public float speed;
+
+
     private void Awake() {
-        input = new CustomInput();
         rb = GetComponent<Rigidbody2D>();
     }
-    private void OnEnable() {
-        input.Enable();
-        input.Player.Movement.performed += OnMovementPerformed;
-        input.Player.Movement.canceled += OnMovementCancelled;
+
+    private void Start()
+    {
+        charCon = GetComponent<CharacterController2D>();
+        push = false;
+        jump = false;
     }
-    private void OnDisable(){
-        input.Disable();
-        input.Player.Movement.performed -= OnMovementPerformed;
-        input.Player.Movement.canceled -= OnMovementCancelled;
+
+    private void Update()
+    {
+        moveDir = Input.GetAxis("Horizontal");
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            jump = true;
+            animator.SetTrigger("Jumping");
+        } 
+        else if (Input.GetKeyDown(KeyCode.F))
+        {
+            animator.SetTrigger("Kick");
+            checkForRobot();
+        }
+        else if (Input.GetKeyDown(KeyCode.E))
+        {
+            push = true;
+            animator.SetTrigger("Push");
+        }
+        else if (Input.GetKeyDown(KeyCode.C))
+        {
+            animator.SetTrigger("Crouching");
+        }
+
+
+    }
+    private void checkForRobot()
+    {
+        if (Vector3.Distance (transform.position, robot.transform.position) < 5){
+            robot.GetComponent<Animator>().SetTrigger("Death");
+        }
     }
 
     private void FixedUpdate(){
-        rb.velocity = moveVector * moveSpeed * Time.deltaTime;
+        charCon.Move(moveDir * speed * Time.fixedDeltaTime, false, jump);
+        animator.SetFloat("Landing", Mathf.Abs(moveDir));
+        jump = false;
     }
 
-    private void OnMovementPerformed(InputAction.CallbackContext value){
-        moveVector = value.ReadValue<Vector2>();
-    }
 
-    private void OnMovementCancelled(InputAction.CallbackContext value){
-        moveVector = Vector2.zero;
-    }
 }
